@@ -1,7 +1,7 @@
 # Multi Class Image Classification using Keras
 
 ## Introduction
-In image classification, we train a deep neural network to predict the labels/class of on what the image contains. In this project, we are building a model to classify the objects in the CIFAR-100 dataset which contains 50000 training images from 10 different classes.
+In image classification, we train a deep neural network to predict the labels/class of on what the image contains. In this project, we are building a model to classify the objects in the CIFAR-10 dataset which contains 50000 training images from 10 different classes.
 
 ## Methodology
 The dataset contains 50000 numbered images (from 1 to 50000) and a csv file with information on the class that each image belongs to. In keras, image data can be easily setup and also augmented for classification problem using the ImageDataGenerator class if the images are stored in the following format.
