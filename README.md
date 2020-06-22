@@ -16,3 +16,15 @@ Finally, the best NN architecutre was selected based on its performance on the t
 
 ## Results
 Out of the models we tried, the network that gave the best performance and its accuracy score on the test, train and dev sets are given below.
+
+![Model](https://github.com/muhammedsalihk/Multi-Class-Image-Classification-using-Keras/blob/master/Images/Model.png)
+
+**Model Performance**
+
+| Set  | Score |
+| ------------- | ------------- |
+| Test  | 0.823  |
+| Train | 0.948 |
+| Val   | 0.806  |
+
+We can see that the model is having a high variance problem. There is definitely a scope for further improvement in the performance by using techniques like data augmentation, L2 regularisation, dropout etc.
